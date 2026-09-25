@@ -2,7 +2,30 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #17332f;
+
+  /* Palette de marque Cabinet Perfect Assistance — extraite du logo.
+     Ne changer que ces valeurs pour mettre à jour la charte graphique. */
+  --color-brand-teal-50: #eef8f6;
+  --color-brand-teal-100: #d3ede7;
+  --color-brand-teal-300: #7ecabd;
+  --color-brand-teal-500: #37ae9a;
+  --color-brand-teal-600: #2c8b7a;
+  --color-brand-teal-700: #226b5e;
+  --color-brand-teal-900: #163f37;
+
+  --color-brand-orange-50: #fdf1ed;
+  --color-brand-orange-100: #fbdccf;
+  --color-brand-orange-400: #e56f47;
+  --color-brand-orange-500: #d94927;
+  --color-brand-orange-600: #b23a1d;
+  --color-brand-orange-700: #8a2c16;
+
+  --color-brand-neutral-50: #f7f8f7;
+  --color-brand-neutral-100: #eef1f0;
+  --color-brand-neutral-200: #dde3e1;
+  --color-brand-neutral-600: #52605c;
+  --color-brand-neutral-800: #2b3532;
 }
 
 @theme inline {
@@ -10,17 +33,48 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-brand-teal-50: var(--color-brand-teal-50);
+  --color-brand-teal-100: var(--color-brand-teal-100);
+  --color-brand-teal-300: var(--color-brand-teal-300);
+  --color-brand-teal-500: var(--color-brand-teal-500);
+  --color-brand-teal-600: var(--color-brand-teal-600);
+  --color-brand-teal-700: var(--color-brand-teal-700);
+  --color-brand-teal-900: var(--color-brand-teal-900);
+
+  --color-brand-orange-50: var(--color-brand-orange-50);
+  --color-brand-orange-100: var(--color-brand-orange-100);
+  --color-brand-orange-400: var(--color-brand-orange-400);
+  --color-brand-orange-500: var(--color-brand-orange-500);
+  --color-brand-orange-600: var(--color-brand-orange-600);
+  --color-brand-orange-700: var(--color-brand-orange-700);
+
+  --color-brand-neutral-50: var(--color-brand-neutral-50);
+  --color-brand-neutral-100: var(--color-brand-neutral-100);
+  --color-brand-neutral-200: var(--color-brand-neutral-200);
+  --color-brand-neutral-600: var(--color-brand-neutral-600);
+  --color-brand-neutral-800: var(--color-brand-neutral-800);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .input {
+    width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-brand-neutral-200);
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    background-color: white;
+  }
+  .input:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-color: var(--color-brand-teal-500);
+    box-shadow: 0 0 0 3px var(--color-brand-teal-100);
+  }
 }

@@ -1,0 +1,17 @@
+[
+  { "slug": "finances-publiques", "theme": "Finances publiques", "nb_cycles": 20, "description": "Budget, comptabilité publique et gestion financière des institutions publiques." },
+  { "slug": "investissements-publics", "theme": "Investissements publics", "nb_cycles": 6, "description": "Montage, financement et pilotage des projets d'investissement public." },
+  { "slug": "action-publique-politiques-publiques", "theme": "Action publique - politiques publiques", "nb_cycles": 10, "description": "Conception, mise en œuvre et évaluation des politiques publiques." },
+  { "slug": "performance-des-organisations", "theme": "Performance des organisations", "nb_cycles": 8, "description": "Pilotage de la performance et amélioration continue des organisations publiques." },
+  { "slug": "commande-publique-management-et-audit", "theme": "Commande publique : management et audit", "nb_cycles": 12, "description": "Marchés publics, gestion des contrats et audit de la commande publique." },
+  { "slug": "audit-controle-et-lutte-contre-la-fraude-et-la-corruption", "theme": "Audit, contrôle et lutte contre la fraude et la corruption", "nb_cycles": 15, "description": "Techniques d'audit, contrôle interne et prévention de la fraude." },
+  { "slug": "fiscalite-et-mobilisation-des-recettes-internes", "theme": "Fiscalité et mobilisation des recettes internes", "nb_cycles": 9, "description": "Optimisation de la mobilisation des recettes fiscales et non fiscales." },
+  { "slug": "management-strategique", "theme": "Management stratégique", "nb_cycles": 18, "description": "Stratégie, leadership et pilotage des organisations publiques." },
+  { "slug": "cybersecurite-informatique", "theme": "Cybersécurité - informatique", "nb_cycles": 7, "description": "Sécurité des systèmes d'information et transformation numérique." },
+  { "slug": "gestion-de-projets-et-programmes", "theme": "Gestion de projets et programmes", "nb_cycles": 25, "description": "Méthodes et outils de gestion de projets et de programmes publics." },
+  { "slug": "secretariat-archivage-logistique", "theme": "Secrétariat - archivage - logistique", "nb_cycles": 14, "description": "Organisation administrative, gestion documentaire et logistique." },
+  { "slug": "ressources-humaines-formation", "theme": "Ressources humaines - formation", "nb_cycles": 16, "description": "Gestion des ressources humaines et ingénierie de formation dans le secteur public." },
+  { "slug": "communication-developpement-personnel", "theme": "Communication - développement personnel", "nb_cycles": 10, "description": "Communication institutionnelle et développement des compétences personnelles." },
+  { "slug": "gouvernance-du-secteur-parapublic", "theme": "Gouvernance du secteur parapublic", "nb_cycles": 5, "description": "Gouvernance, éthique et pilotage des établissements publics et parapublics." },
+  { "slug": "intelligence-artificielle-ia", "theme": "Intelligence artificielle (IA)", "nb_cycles": 6, "description": "Applications de l'intelligence artificielle dans l'action publique." }
+]

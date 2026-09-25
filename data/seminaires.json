@@ -1,0 +1,68 @@
+[
+  {
+    "code": "FRGP01",
+    "titre": "Gestion budgétaire et comptable des projets et agences publiques",
+    "themeSlug": "finances-publiques",
+    "ville": "Casablanca",
+    "modalite": "Présentiel",
+    "duree": "2 semaines",
+    "dateDebut": "2026-11-02",
+    "dateFin": "2026-11-13",
+    "dateLimiteInscription": "2026-10-12"
+  },
+  {
+    "code": "FRSB02",
+    "titre": "Assistanat de direction : organisation, priorités et communication",
+    "themeSlug": "secretariat-archivage-logistique",
+    "ville": "Distanciel",
+    "modalite": "Distanciel",
+    "duree": "1 semaine",
+    "dateDebut": "2026-11-09",
+    "dateFin": "2026-11-13",
+    "dateLimiteInscription": "2026-10-19"
+  },
+  {
+    "code": "FRAU03",
+    "titre": "Audit interne et lutte contre la fraude dans le secteur public",
+    "themeSlug": "audit-controle-et-lutte-contre-la-fraude-et-la-corruption",
+    "ville": "Marrakech",
+    "modalite": "Présentiel",
+    "duree": "2 semaines",
+    "dateDebut": "2026-11-16",
+    "dateFin": "2026-11-27",
+    "dateLimiteInscription": "2026-10-26"
+  },
+  {
+    "code": "FRMS04",
+    "titre": "Leadership et management stratégique des organisations publiques",
+    "themeSlug": "management-strategique",
+    "ville": "Distanciel",
+    "modalite": "Distanciel",
+    "duree": "1 semaine",
+    "dateDebut": "2026-11-23",
+    "dateFin": "2026-11-27",
+    "dateLimiteInscription": "2026-11-02"
+  },
+  {
+    "code": "FRGPP05",
+    "titre": "Gestion de projets et programmes publics",
+    "themeSlug": "gestion-de-projets-et-programmes",
+    "ville": "Casablanca",
+    "modalite": "Présentiel",
+    "duree": "2 semaines",
+    "dateDebut": "2026-12-07",
+    "dateFin": "2026-12-18",
+    "dateLimiteInscription": "2026-11-16"
+  },
+  {
+    "code": "FRIA06",
+    "titre": "Intelligence artificielle appliquée à l'action publique",
+    "themeSlug": "intelligence-artificielle-ia",
+    "ville": "Distanciel",
+    "modalite": "Distanciel",
+    "duree": "1 semaine",
+    "dateDebut": "2026-12-14",
+    "dateFin": "2026-12-18",
+    "dateLimiteInscription": "2026-11-23"
+  }
+]

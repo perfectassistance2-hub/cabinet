@@ -1,0 +1,50 @@
+[
+  {
+    "annee": 2019,
+    "resume": "Lancement des premiers cycles de formation en gestion publique et audit.",
+    "nb_sessions": 8,
+    "nb_participants": 120
+  },
+  {
+    "annee": 2020,
+    "resume": "Adaptation de l'offre au distanciel suite au contexte sanitaire ; maintien de l'accompagnement des administrations partenaires.",
+    "nb_sessions": 10,
+    "nb_participants": 150
+  },
+  {
+    "annee": 2021,
+    "resume": "Élargissement du catalogue à de nouvelles thématiques (management stratégique, RH publiques).",
+    "nb_sessions": 14,
+    "nb_participants": 210
+  },
+  {
+    "annee": 2022,
+    "resume": "Premiers partenariats avec des institutions hors Maroc ; montée en puissance des sessions présentielles.",
+    "nb_sessions": 18,
+    "nb_participants": 260
+  },
+  {
+    "annee": 2023,
+    "resume": "Introduction de nouveaux cycles certifiants en audit et contrôle interne.",
+    "nb_sessions": 22,
+    "nb_participants": 310
+  },
+  {
+    "annee": 2024,
+    "resume": "Développement des formations en cybersécurité et transformation digitale du secteur public.",
+    "nb_sessions": 26,
+    "nb_participants": 380
+  },
+  {
+    "annee": 2025,
+    "resume": "Intégration de modules dédiés à l'intelligence artificielle dans l'action publique.",
+    "nb_sessions": 30,
+    "nb_participants": 420
+  },
+  {
+    "annee": 2026,
+    "resume": "Catalogue élargi, participants issus de plusieurs pays d'Afrique et d'ailleurs.",
+    "nb_sessions": 32,
+    "nb_participants": 450
+  }
+]

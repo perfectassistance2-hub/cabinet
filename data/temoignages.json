@@ -1,0 +1,20 @@
+[
+  {
+    "nom": "Nom Prénom",
+    "fonction": "Directeur des Finances, Ministère de l'Économie, Maroc",
+    "photo": "/images/temoignages/placeholder-1.jpg",
+    "citation": "La formation nous a permis de renforcer concrètement nos compétences en gestion budgétaire et d'appliquer immédiatement les outils vus en séminaire."
+  },
+  {
+    "nom": "Nom Prénom",
+    "fonction": "Secrétaire Générale, Collectivité territoriale, Côte d'Ivoire",
+    "photo": "/images/temoignages/placeholder-2.jpg",
+    "citation": "Un accompagnement sérieux et des formateurs expérimentés. Le format distanciel a été particulièrement adapté à nos contraintes."
+  },
+  {
+    "nom": "Nom Prénom",
+    "fonction": "Chef de service Audit interne, Établissement public, Sénégal",
+    "photo": "/images/temoignages/placeholder-3.jpg",
+    "citation": "Des sessions très pratiques, orientées vers des cas concrets de notre administration. Je recommande vivement Cabinet Perfect Assistance."
+  }
+]

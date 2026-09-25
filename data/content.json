@@ -1,0 +1,33 @@
+{
+  "fr": {
+    "accueil": {
+      "heroTitre": "Renforcer les capacités du secteur public, au Maroc et en Afrique",
+      "heroSousTitre": "Séminaires, formations sur mesure et voyages d'études pour les élus, cadres et agents des administrations publiques.",
+      "heroImage": "/images/hero/seminaire-salle.avif",
+      "quiSommesNousImage": "/images/equipe-bureau.avif",
+      "quiSommesNous": "Cabinet Perfect Assistance est un cabinet de formation basé au Maroc, spécialisé dans le renforcement des capacités des élus, dirigeants, cadres et collaborateurs du secteur public et parapublic. Nous accompagnons des administrations et organismes publics au Maroc, en Afrique et au-delà, à travers des séminaires, des formations sur mesure et des voyages d'études."
+    },
+    "aPropos": {
+      "titre": "Le Cabinet",
+      "intro": "Cabinet Perfect Assistance est un cabinet de formation basé au Maroc, spécialisé dans le renforcement des capacités des élus, dirigeants, cadres et collaborateurs du secteur public et parapublic. Nous accompagnons des administrations et organismes publics au Maroc, en Afrique et au-delà, à travers des séminaires, des formations sur mesure et des voyages d'études.",
+      "motDirigeant": {
+        "titreSection": "DE LA FORMATION À L'EXPERTISE",
+        "nom": "Nom Prénom",
+        "fonction": "Directeur / Fondateur, Cabinet Perfect Assistance",
+        "photo": "/images/dirigeant/placeholder.jpg",
+        "texte": "Depuis sa création, Cabinet Perfect Assistance accompagne les administrations publiques marocaines et africaines dans le renforcement de leurs compétences. Notre conviction est simple : la performance des institutions publiques repose avant tout sur la qualité de la formation de celles et ceux qui les font vivre au quotidien. C'est cette conviction qui guide chacun de nos programmes."
+      }
+    },
+    "inscription": {
+      "conditions": [
+        "Inscription à confirmer au plus tard à la date limite indiquée pour chaque séminaire.",
+        "Documents à fournir : bulletin d'inscription complété, prise en charge ou bon de commande de l'institution.",
+        "Modalités de paiement : virement bancaire, à réception de la facture pro forma.",
+        "Un minimum de participants peut être requis pour le maintien d'une session ; en cas d'annulation, les participants sont prévenus au moins 5 jours ouvrés avant la date de début."
+      ]
+    },
+    "contact": {
+      "intro": "Une question sur nos formations, un projet de séminaire sur mesure ? Notre équipe vous répond rapidement."
+    }
+  }
+}

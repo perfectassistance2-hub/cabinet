@@ -1,0 +1,26 @@
+{
+  "fr": {
+    "nomCabinet": "Cabinet Perfect Assistance",
+    "slogan": "Renforcer les capacités du secteur public, en Afrique et au-delà",
+    "bandeauGeo": "MAROC (RABAT) · PARTICIPANTS DE PLUSIEURS PAYS D'AFRIQUE ET D'AILLEURS",
+    "coordonnees": {
+      "adresse": "71 Av. Abdelkrim Al Khattabi, Rabat 10000",
+      "email": "contact@perfectassistance.ma",
+      "telephone": "+212 673-623053",
+      "telephoneWhatsapp": "+212 673-623053"
+    },
+    "reseauxSociaux": {
+      "linkedin": "https://www.linkedin.com/company/perfect-assistance",
+      "facebook": "https://www.facebook.com/perfectassistance",
+      "twitter": "https://twitter.com/perfectassist"
+    },
+    "mentionLegale": "Cabinet Perfect Assistance - Tous droits réservés"
+  },
+  "couleurs": {
+    "primaire": "#37AE9A",
+    "primaireFonce": "#2C8B7A",
+    "accent": "#D94927",
+    "accentFonce": "#B23A1D",
+    "neutre": "#F4F6F5"
+  }
+}
