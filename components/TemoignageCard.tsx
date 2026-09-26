@@ -15,7 +15,7 @@ export default function TemoignageCard({ temoignage }: { temoignage: Temoignage 
         &laquo;&nbsp;{temoignage.citation}&nbsp;&raquo;
       </blockquote>
       <figcaption className="mt-4">
-        <p className="text-sm font-semibold text-brand-teal-700">{temoignage.nom}</p>
+        <p className="text-sm font-semibold text-brand-blue-700">{temoignage.nom}</p>
         <p className="text-xs text-brand-neutral-600">{temoignage.fonction}</p>
       </figcaption>
     </figure>

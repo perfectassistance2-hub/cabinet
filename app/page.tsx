@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/Container";
+import HeroCarousel from "@/components/HeroCarousel";
 import StatsBar from "@/components/StatsBar";
 import ThemeCard from "@/components/ThemeCard";
 import SeminaireCard from "@/components/SeminaireCard";
@@ -45,36 +46,7 @@ export default function HomePage() {
   return (
     <>
       <section className="relative">
-        <div className="relative h-[420px] w-full sm:h-[480px]">
-          <Image
-            src={c.heroImage}
-            alt="Session de formation Cabinet Perfect Assistance"
-            fill
-            priority
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-brand-teal-900/70" />
-          <Container className="relative flex h-full flex-col justify-center">
-            <h1 className="max-w-2xl text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-              {c.heroTitre}
-            </h1>
-            <p className="mt-4 max-w-xl text-brand-teal-50 sm:text-lg">{c.heroSousTitre}</p>
-            <div className="mt-6 flex flex-wrap gap-3">
-              <Link
-                href="/formations"
-                className="rounded-full bg-brand-orange-500 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-orange-600"
-              >
-                Trouver une formation
-              </Link>
-              <Link
-                href="/inscription"
-                className="rounded-full border border-white px-6 py-3 text-sm font-semibold text-white hover:bg-white hover:text-brand-teal-900"
-              >
-                S&apos;inscrire
-              </Link>
-            </div>
-          </Container>
-        </div>
+        <HeroCarousel slides={c.heroSlides} />
 
         <Container className="relative -mt-10 grid grid-cols-1 gap-4 pb-4 sm:grid-cols-2 lg:-mt-12 lg:grid-cols-4">
           {ACCES_RAPIDE.map((item) => (
@@ -83,7 +55,7 @@ export default function HomePage() {
               href={item.href}
               className="flex flex-col rounded-xl bg-white p-5 shadow-lg ring-1 ring-black/5 transition-transform hover:-translate-y-1"
             >
-              <span className="text-sm font-semibold text-brand-teal-700">{item.titre}</span>
+              <span className="text-sm font-semibold text-brand-blue-700">{item.titre}</span>
               <span className="mt-2 text-xs text-brand-neutral-600">{item.description}</span>
             </Link>
           ))}
@@ -101,7 +73,7 @@ export default function HomePage() {
             <p className="mt-4 text-brand-neutral-600">{c.quiSommesNous}</p>
             <Link
               href="/a-propos"
-              className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand-teal-700 hover:text-brand-teal-900"
+              className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand-blue-700 hover:text-brand-blue-900"
             >
               En savoir plus sur le Cabinet →
             </Link>
@@ -125,7 +97,7 @@ export default function HomePage() {
             </h2>
             <Link
               href="/formations"
-              className="text-sm font-semibold text-brand-teal-700 hover:text-brand-teal-900"
+              className="text-sm font-semibold text-brand-blue-700 hover:text-brand-blue-900"
             >
               Voir tout le catalogue →
             </Link>
@@ -139,21 +111,21 @@ export default function HomePage() {
       </section>
 
       <section className="py-14 sm:py-16">
-        <Container className="grid gap-8 overflow-hidden rounded-2xl bg-brand-teal-900 lg:grid-cols-2 lg:items-center lg:gap-0">
+        <Container className="grid gap-8 overflow-hidden rounded-2xl bg-brand-blue-900 lg:grid-cols-2 lg:items-center lg:gap-0">
           <div className="p-8 sm:p-10 lg:p-12">
-            <p className="text-xs font-semibold uppercase tracking-wide text-brand-orange-400">
+            <p className="text-xs font-semibold uppercase tracking-wide text-brand-red-400">
               Catalogue 2026
             </p>
             <h2 className="mt-2 text-2xl font-bold text-white sm:text-3xl">
               Des formations qualifiantes et certifiantes
             </h2>
-            <p className="mt-4 text-brand-teal-100">
+            <p className="mt-4 text-brand-blue-100">
               Un catalogue riche, régulièrement mis à jour, conçu pour accompagner la montée en
               compétences des équipes du secteur public au Maroc et en Afrique.
             </p>
             <Link
               href="/formations"
-              className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand-orange-500 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-orange-600"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand-red-500 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-red-600"
             >
               Voir le catalogue complet →
             </Link>
@@ -177,7 +149,7 @@ export default function HomePage() {
             </h2>
             <Link
               href="/seminaires"
-              className="text-sm font-semibold text-brand-teal-700 hover:text-brand-teal-900"
+              className="text-sm font-semibold text-brand-blue-700 hover:text-brand-blue-900"
             >
               Voir le planning complet →
             </Link>

@@ -27,7 +27,7 @@ export default function AProposPage() {
                 className="object-cover"
               />
             </div>
-            <p className="mt-4 text-center text-sm font-semibold text-brand-teal-700 lg:text-left">
+            <p className="mt-4 text-center text-sm font-semibold text-brand-blue-700 lg:text-left">
               {c.motDirigeant.nom}
             </p>
             <p className="text-center text-xs text-brand-neutral-600 lg:text-left">
@@ -36,7 +36,7 @@ export default function AProposPage() {
           </div>
 
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wide text-brand-orange-500">
+            <p className="text-xs font-semibold uppercase tracking-wide text-brand-red-500">
               Mot du dirigeant
             </p>
             <h2 className="mt-2 text-2xl font-bold text-brand-neutral-800 sm:text-3xl">

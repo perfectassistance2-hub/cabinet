@@ -15,7 +15,7 @@ export default function InscriptionForm({ seminaireInitial }: { seminaireInitial
   return (
     <form action={formAction} className="grid gap-4 sm:grid-cols-2">
       {seminaireInitial && (
-        <p className="sm:col-span-2 rounded-md bg-brand-teal-50 p-3 text-sm text-brand-teal-700">
+        <p className="sm:col-span-2 rounded-md bg-brand-blue-50 p-3 text-sm text-brand-blue-700">
           Inscription pour le séminaire <strong>{seminaireInitial}</strong>
           <input type="hidden" name="seminaireCode" value={seminaireInitial} />
         </p>
@@ -90,8 +90,8 @@ export default function InscriptionForm({ seminaireInitial }: { seminaireInitial
         <p
           className={`sm:col-span-2 rounded-md p-3 text-sm ${
             state.status === "success"
-              ? "bg-brand-teal-50 text-brand-teal-700"
-              : "bg-brand-orange-50 text-brand-orange-700"
+              ? "bg-brand-blue-50 text-brand-blue-700"
+              : "bg-brand-red-50 text-brand-red-700"
           }`}
           role="status"
         >
@@ -103,7 +103,7 @@ export default function InscriptionForm({ seminaireInitial }: { seminaireInitial
         <button
           type="submit"
           disabled={pending}
-          className="rounded-full bg-brand-orange-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-orange-600 disabled:opacity-60"
+          className="rounded-full bg-brand-red-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-red-600 disabled:opacity-60"
         >
           {pending ? "Envoi en cours..." : "Envoyer ma demande d'inscription"}
         </button>

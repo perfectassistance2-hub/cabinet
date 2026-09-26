@@ -23,14 +23,14 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
-      <div className="hidden bg-brand-teal-900 text-white sm:block">
+      <div className="hidden bg-brand-blue-900 text-white sm:block">
         <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-1.5 text-xs sm:px-6 lg:px-8">
           <p className="tracking-wide">{config.fr.bandeauGeo}</p>
           <div className="flex items-center gap-4">
-            <a href={`mailto:${config.fr.coordonnees.email}`} className="hover:text-brand-teal-300">
+            <a href={`mailto:${config.fr.coordonnees.email}`} className="hover:text-brand-blue-300">
               {config.fr.coordonnees.email}
             </a>
-            <a href={`tel:${config.fr.coordonnees.telephone}`} className="hover:text-brand-teal-300">
+            <a href={`tel:${config.fr.coordonnees.telephone}`} className="hover:text-brand-blue-300">
               {config.fr.coordonnees.telephone}
             </a>
           </div>
@@ -47,7 +47,7 @@ export default function Header() {
             className="h-10 w-auto rounded"
             priority
           />
-          <span className="hidden text-sm font-semibold text-brand-teal-900 sm:block">
+          <span className="hidden text-sm font-semibold text-brand-blue-900 sm:block">
             {config.fr.nomCabinet}
           </span>
         </Link>
@@ -57,7 +57,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-brand-neutral-800 transition-colors hover:text-brand-teal-600"
+              className="text-sm font-medium text-brand-neutral-800 transition-colors hover:text-brand-blue-600"
             >
               {link.label}
             </Link>
@@ -67,7 +67,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <Link
             href="/inscription"
-            className="hidden rounded-full bg-brand-orange-500 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-orange-600 sm:inline-block"
+            className="hidden rounded-full bg-brand-red-500 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-red-600 sm:inline-block"
           >
             S&apos;inscrire
           </Link>
@@ -96,7 +96,7 @@ export default function Header() {
                 <Link
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="block rounded-md px-2 py-2 text-sm font-medium text-brand-neutral-800 hover:bg-brand-teal-50 hover:text-brand-teal-600"
+                  className="block rounded-md px-2 py-2 text-sm font-medium text-brand-neutral-800 hover:bg-brand-blue-50 hover:text-brand-blue-600"
                 >
                   {link.label}
                 </Link>
@@ -106,7 +106,7 @@ export default function Header() {
               <Link
                 href="/inscription"
                 onClick={() => setMenuOpen(false)}
-                className="block rounded-full bg-brand-orange-500 px-4 py-2 text-center text-sm font-semibold text-white"
+                className="block rounded-full bg-brand-red-500 px-4 py-2 text-center text-sm font-semibold text-white"
               >
                 S&apos;inscrire
               </Link>

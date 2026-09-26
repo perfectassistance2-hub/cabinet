@@ -57,7 +57,7 @@ export default async function ThemeFormationsPage({
             </p>
             <Link
               href="/formations"
-              className="text-sm font-semibold text-brand-teal-700 hover:text-brand-teal-900"
+              className="text-sm font-semibold text-brand-blue-700 hover:text-brand-blue-900"
             >
               ← Toutes les thématiques
             </Link>
@@ -80,7 +80,7 @@ export default async function ThemeFormationsPage({
                 </div>
                 <Link
                   href="/inscription"
-                  className="inline-flex shrink-0 items-center justify-center rounded-full bg-brand-orange-500 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-orange-600"
+                  className="inline-flex shrink-0 items-center justify-center rounded-full bg-brand-red-500 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-red-600"
                 >
                   S&apos;inscrire
                 </Link>

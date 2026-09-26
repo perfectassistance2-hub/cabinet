@@ -1,10 +1,17 @@
 {
   "fr": {
     "accueil": {
-      "heroTitre": "Renforcer les capacités du secteur public, au Maroc et en Afrique",
-      "heroSousTitre": "Séminaires, formations sur mesure et voyages d'études pour les élus, cadres et agents des administrations publiques.",
-      "heroImage": "/images/hero/seminaire-salle.avif",
-      "quiSommesNousImage": "/images/equipe-bureau.avif",
+      "heroSlides": [
+        {
+          "texte": "Cabinet panafricain de transformation des compétences et de préparation aux fonctions publiques",
+          "image": "/images/hero/seminaire-salle.avif"
+        },
+        {
+          "texte": "Former les femmes et les hommes qui transforment l'administration africaine.",
+          "image": "/images/evenements/equipe-partenaires.webp"
+        }
+      ],
+      "quiSommesNousImage": "/images/evenements/signature-convention.png",
       "quiSommesNous": "Cabinet Perfect Assistance est un cabinet de formation basé au Maroc, spécialisé dans le renforcement des capacités des élus, dirigeants, cadres et collaborateurs du secteur public et parapublic. Nous accompagnons des administrations et organismes publics au Maroc, en Afrique et au-delà, à travers des séminaires, des formations sur mesure et des voyages d'études."
     },
     "aPropos": {

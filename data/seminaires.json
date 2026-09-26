@@ -1,5 +1,16 @@
 [
   {
+    "code": "LCRH-IA01",
+    "titre": "Leadership, communication et gestion des ressources humaines à l'ère de l'Intelligence Artificielle, adapté à l'administration publique",
+    "themeSlug": "management-strategique",
+    "ville": "Rabat",
+    "modalite": "Présentiel",
+    "duree": "1 semaine",
+    "dateDebut": "2026-10-19",
+    "dateFin": "2026-10-23",
+    "dateLimiteInscription": "2026-10-05"
+  },
+  {
     "code": "FRGP01",
     "titre": "Gestion budgétaire et comptable des projets et agences publiques",
     "themeSlug": "finances-publiques",

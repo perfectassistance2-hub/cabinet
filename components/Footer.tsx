@@ -18,7 +18,7 @@ export default function Footer() {
   const annee = new Date().getFullYear();
 
   return (
-    <footer className="mt-16 bg-brand-teal-900 text-brand-neutral-50">
+    <footer className="mt-16 bg-brand-blue-900 text-brand-neutral-50">
       <Container className="grid gap-10 py-12 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="mb-3 flex items-center gap-2">
@@ -31,11 +31,11 @@ export default function Footer() {
             />
             <span className="text-sm font-semibold">{config.fr.nomCabinet}</span>
           </div>
-          <p className="text-sm text-brand-teal-100">{config.fr.slogan}</p>
+          <p className="text-sm text-brand-blue-100">{config.fr.slogan}</p>
         </div>
 
         <div>
-          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-teal-300">
+          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-blue-300">
             Liens rapides
           </h3>
           <ul className="space-y-2 text-sm">
@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-teal-300">
+          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-blue-300">
             Coordonnées
           </h3>
           <ul className="space-y-2 text-sm text-brand-neutral-50/90">
@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-teal-300">
+          <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-blue-300">
             Réseaux sociaux
           </h3>
           <ul className="space-y-2 text-sm">

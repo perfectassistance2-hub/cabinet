@@ -22,24 +22,24 @@ export default function ContactPage() {
         <Container className="grid gap-10 lg:grid-cols-[minmax(0,320px)_1fr]">
           <div className="space-y-4 text-sm text-brand-neutral-600">
             <div>
-              <h2 className="text-sm font-semibold uppercase tracking-wide text-brand-teal-700">
+              <h2 className="text-sm font-semibold uppercase tracking-wide text-brand-blue-700">
                 Adresse
               </h2>
               <p className="mt-1">{config.fr.coordonnees.adresse}</p>
             </div>
             <div>
-              <h2 className="text-sm font-semibold uppercase tracking-wide text-brand-teal-700">
+              <h2 className="text-sm font-semibold uppercase tracking-wide text-brand-blue-700">
                 Email
               </h2>
-              <a href={`mailto:${config.fr.coordonnees.email}`} className="mt-1 block hover:text-brand-teal-700">
+              <a href={`mailto:${config.fr.coordonnees.email}`} className="mt-1 block hover:text-brand-blue-700">
                 {config.fr.coordonnees.email}
               </a>
             </div>
             <div>
-              <h2 className="text-sm font-semibold uppercase tracking-wide text-brand-teal-700">
+              <h2 className="text-sm font-semibold uppercase tracking-wide text-brand-blue-700">
                 Téléphone
               </h2>
-              <a href={`tel:${config.fr.coordonnees.telephone}`} className="mt-1 block hover:text-brand-teal-700">
+              <a href={`tel:${config.fr.coordonnees.telephone}`} className="mt-1 block hover:text-brand-blue-700">
                 {config.fr.coordonnees.telephone}
               </a>
             </div>

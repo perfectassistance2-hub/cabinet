@@ -4,8 +4,8 @@
     "slogan": "Renforcer les capacités du secteur public, en Afrique et au-delà",
     "bandeauGeo": "MAROC (RABAT) · PARTICIPANTS DE PLUSIEURS PAYS D'AFRIQUE ET D'AILLEURS",
     "coordonnees": {
-      "adresse": "71 Av. Abdelkrim Al Khattabi, Rabat 10000",
-      "email": "contact@perfectassistance.ma",
+      "adresse": "15 Avenue Abtal, Agdal, Rabat",
+      "email": "direction@perfectassistance.fr",
       "telephone": "+212 673-623053",
       "telephoneWhatsapp": "+212 673-623053"
     },
@@ -17,10 +17,10 @@
     "mentionLegale": "Cabinet Perfect Assistance - Tous droits réservés"
   },
   "couleurs": {
-    "primaire": "#37AE9A",
-    "primaireFonce": "#2C8B7A",
-    "accent": "#D94927",
-    "accentFonce": "#B23A1D",
+    "primaire": "#1F5FA8",
+    "primaireFonce": "#123A66",
+    "accent": "#D42E3F",
+    "accentFonce": "#AE2331",
     "neutre": "#F4F6F5"
   }
 }
