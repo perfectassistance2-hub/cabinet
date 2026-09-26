@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Container from "@/components/Container";
 import PageHero from "@/components/PageHero";
 import ContactForm from "./ContactForm";
@@ -42,6 +43,14 @@ export default function ContactPage() {
               <a href={`tel:${config.fr.coordonnees.telephone}`} className="mt-1 block hover:text-brand-blue-700">
                 {config.fr.coordonnees.telephone}
               </a>
+            </div>
+            <div className="relative h-48 overflow-hidden rounded-2xl">
+              <Image
+                src={content.fr.contact.photoAmbiance}
+                alt="Cabinet Perfect Assistance"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
 

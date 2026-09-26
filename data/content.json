@@ -17,13 +17,12 @@
     "aPropos": {
       "titre": "Le Cabinet",
       "intro": "Cabinet Perfect Assistance est un cabinet de formation basé au Maroc, spécialisé dans le renforcement des capacités des élus, dirigeants, cadres et collaborateurs du secteur public et parapublic. Nous accompagnons des administrations et organismes publics au Maroc, en Afrique et au-delà, à travers des séminaires, des formations sur mesure et des voyages d'études.",
-      "equipeImage": "/images/evenements/equipe-seminaire-plage.webp",
       "motDirigeant": {
         "titreSection": "DE LA FORMATION À L'EXPERTISE",
-        "nom": "Nom Prénom",
+        "nom": "Vanne Cliff NKOY",
         "fonction": "Directeur / Fondateur, Cabinet Perfect Assistance",
         "photo": "/images/dirigeant/dirigeant.webp",
-        "texte": "Depuis sa création, Cabinet Perfect Assistance accompagne les administrations publiques marocaines et africaines dans le renforcement de leurs compétences. Notre conviction est simple : la performance des institutions publiques repose avant tout sur la qualité de la formation de celles et ceux qui les font vivre au quotidien. C'est cette conviction qui guide chacun de nos programmes."
+        "texte": "Depuis sa création, Cabinet Perfect Assistance accompagne les administrations publiques marocaines et africaines dans le renforcement de leurs compétences. Nous sommes convaincus que la performance des institutions publiques repose avant tout sur la qualité de la formation de celles et ceux qui les font vivre au quotidien : élus, cadres dirigeants, cadres techniques et agents de terrain.\n\nNotre approche panafricaine nous permet de croiser les expériences et les bonnes pratiques d'un pays à l'autre, pour proposer des programmes ancrés dans les réalités du secteur public tout en s'ouvrant aux standards internationaux. Qu'il s'agisse de finances publiques, de gouvernance, de gestion de projets ou des nouveaux enjeux liés à l'intelligence artificielle, nous concevons chaque séminaire comme un espace concret de montée en compétences, pensé pour produire des résultats mesurables au sein des institutions que nous accompagnons.\n\nC'est cette exigence de qualité, et cette conviction que la formation transforme durablement l'action publique, qui guident chaque jour l'ensemble de nos équipes et de nos partenaires formateurs."
       }
     },
     "inscription": {
@@ -35,7 +34,8 @@
       ]
     },
     "contact": {
-      "intro": "Une question sur nos formations, un projet de séminaire sur mesure ? Notre équipe vous répond rapidement."
+      "intro": "Une question sur nos formations, un projet de séminaire sur mesure ? Notre équipe vous répond rapidement.",
+      "photoAmbiance": "/images/evenements/equipe-seminaire-plage.webp"
     }
   }
 }
