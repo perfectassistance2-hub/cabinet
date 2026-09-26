@@ -25,7 +25,6 @@ export type Seminaire = {
 };
 
 export type Temoignage = {
-  nom: string;
   fonction: string;
   photo: string;
   citation: string;
@@ -36,11 +35,6 @@ export type HistoriqueEntry = {
   resume: string;
   nb_sessions: number;
   nb_participants: number;
-};
-
-export type GalerieItem = {
-  image: string;
-  legende: string;
 };
 
 export type Stat = {

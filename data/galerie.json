@@ -1,8 +1,8 @@
 [
-  { "image": "/images/galerie/galerie-01.webp", "legende": "Échange entre participants lors d'un séminaire" },
-  { "image": "/images/galerie/galerie-02.png", "legende": "Séance de travail avec nos partenaires institutionnels" },
-  { "image": "/images/galerie/galerie-03.webp", "legende": "Rencontre avec nos partenaires institutionnels" },
-  { "image": "/images/galerie/galerie-04.webp", "legende": "Intervention lors d'une session de formation" },
-  { "image": "/images/galerie/galerie-05.png", "legende": "Atelier de travail en petit comité" },
-  { "image": "/images/galerie/galerie-06.webp", "legende": "Session de formation en présentiel" }
+  "/images/galerie/galerie-01.webp",
+  "/images/galerie/galerie-02.png",
+  "/images/galerie/galerie-03.webp",
+  "/images/galerie/galerie-04.webp",
+  "/images/galerie/galerie-05.png",
+  "/images/galerie/galerie-06.webp"
 ]

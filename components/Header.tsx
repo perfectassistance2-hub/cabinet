@@ -14,7 +14,6 @@ const NAV_LINKS = [
   { href: "/formations", label: "Formations" },
   { href: "/seminaires", label: "Séminaires" },
   { href: "/historique", label: "Historique" },
-  { href: "/temoignages", label: "Témoignages" },
   { href: "/contact", label: "Contact" },
 ];
 

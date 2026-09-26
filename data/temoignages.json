@@ -1,18 +1,15 @@
 [
   {
-    "nom": "Nom Prénom",
-    "fonction": "Bénéficiaire de la formation, Sénégal",
+    "fonction": "Sénégal",
     "photo": "/images/temoignages/beneficiaire-senegal.webp",
     "citation": "Des sessions très pratiques, orientées vers des cas concrets de notre administration. Je recommande vivement Cabinet Perfect Assistance."
   },
   {
-    "nom": "Nom Prénom",
-    "fonction": "Bénéficiaire de la formation, Côte d'Ivoire",
+    "fonction": "Côte d'Ivoire",
     "photo": "/images/temoignages/beneficiaire-cote-ivoire.webp",
     "citation": "Un accompagnement sérieux et des formateurs expérimentés. Le format distanciel a été particulièrement adapté à nos contraintes."
   },
   {
-    "nom": "Nom Prénom",
     "fonction": "Bénéficiaire de la formation, République du Congo",
     "photo": "/images/temoignages/beneficiaire-congo.jpg",
     "citation": "La formation nous a permis de renforcer concrètement nos compétences et d'appliquer immédiatement les outils vus en séminaire."

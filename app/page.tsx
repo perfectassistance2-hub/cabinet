@@ -171,7 +171,7 @@ export default function HomePage() {
           </h2>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {temoignagesData.map((temoignage) => (
-              <TemoignageCard key={temoignage.nom + temoignage.fonction} temoignage={temoignage} />
+              <TemoignageCard key={temoignage.fonction} temoignage={temoignage} />
             ))}
           </div>
         </Container>

@@ -6,7 +6,7 @@ export default function TemoignageCard({ temoignage }: { temoignage: Temoignage 
     <figure className="flex h-full flex-col items-center rounded-xl border border-brand-neutral-200 bg-white p-6 text-center shadow-sm">
       <Image
         src={temoignage.photo}
-        alt={temoignage.nom}
+        alt={temoignage.fonction}
         width={80}
         height={80}
         className="h-20 w-20 rounded-full object-cover"
@@ -15,8 +15,7 @@ export default function TemoignageCard({ temoignage }: { temoignage: Temoignage 
         &laquo;&nbsp;{temoignage.citation}&nbsp;&raquo;
       </blockquote>
       <figcaption className="mt-4">
-        <p className="text-sm font-semibold text-brand-blue-700">{temoignage.nom}</p>
-        <p className="text-xs text-brand-neutral-600">{temoignage.fonction}</p>
+        <p className="text-sm font-semibold text-brand-blue-700">{temoignage.fonction}</p>
       </figcaption>
     </figure>
   );
