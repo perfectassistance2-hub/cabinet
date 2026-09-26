@@ -115,7 +115,7 @@ export default function HomePage() {
       <section className="py-14 sm:py-16">
         <Container className="grid gap-8 overflow-hidden rounded-2xl bg-brand-blue-900 lg:grid-cols-2 lg:items-center lg:gap-0">
           <div className="p-8 sm:p-10 lg:p-12">
-            <p className="text-xs font-semibold uppercase tracking-wide text-brand-red-400">
+            <p className="text-xs font-semibold uppercase tracking-wide text-brand-gold-400">
               Catalogue 2026
             </p>
             <h2 className="mt-2 text-2xl font-bold text-white sm:text-3xl">
@@ -127,7 +127,7 @@ export default function HomePage() {
             </p>
             <Link
               href="/formations"
-              className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand-red-500 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-red-600"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand-gold-500 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-gold-600"
             >
               Voir le catalogue complet →
             </Link>

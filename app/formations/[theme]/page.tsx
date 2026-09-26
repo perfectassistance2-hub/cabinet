@@ -80,7 +80,7 @@ export default async function ThemeFormationsPage({
                 </div>
                 <Link
                   href="/inscription"
-                  className="inline-flex shrink-0 items-center justify-center rounded-full bg-brand-red-500 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-red-600"
+                  className="inline-flex shrink-0 items-center justify-center rounded-full bg-brand-gold-500 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-gold-600"
                 >
                   S&apos;inscrire
                 </Link>

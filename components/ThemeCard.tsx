@@ -17,7 +17,7 @@ export default function ThemeCard({ theme }: { theme: Theme }) {
         <span className="inline-flex items-center rounded-full bg-brand-blue-50 px-3 py-1 text-xs font-semibold text-brand-blue-700">
           {theme.nb_cycles} formations disponibles
         </span>
-        <span className="text-brand-red-500 transition-transform group-hover:translate-x-1">
+        <span className="text-brand-gold-500 transition-transform group-hover:translate-x-1">
           →
         </span>
       </div>

@@ -38,18 +38,15 @@ export default function Header() {
       </div>
 
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
-        <Link href="/" className="flex shrink-0 items-center gap-2">
+        <Link href="/" className="flex shrink-0 items-center">
           <Image
-            src="/images/logo.jpg"
+            src="/images/logo.webp"
             alt={config.fr.nomCabinet}
-            width={48}
-            height={28}
-            className="h-10 w-auto rounded"
+            width={96}
+            height={64}
+            className="h-12 w-auto"
             priority
           />
-          <span className="hidden text-sm font-semibold text-brand-blue-900 sm:block">
-            {config.fr.nomCabinet}
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-6 lg:flex">
@@ -67,7 +64,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <Link
             href="/inscription"
-            className="hidden rounded-full bg-brand-red-500 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-red-600 sm:inline-block"
+            className="hidden rounded-full bg-brand-gold-500 px-5 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-gold-600 sm:inline-block"
           >
             S&apos;inscrire
           </Link>
@@ -106,7 +103,7 @@ export default function Header() {
               <Link
                 href="/inscription"
                 onClick={() => setMenuOpen(false)}
-                className="block rounded-full bg-brand-red-500 px-4 py-2 text-center text-sm font-semibold text-white"
+                className="block rounded-full bg-brand-gold-500 px-4 py-2 text-center text-sm font-semibold text-white"
               >
                 S&apos;inscrire
               </Link>

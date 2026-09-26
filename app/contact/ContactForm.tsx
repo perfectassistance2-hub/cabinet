@@ -40,7 +40,7 @@ export default function ContactForm() {
           className={`rounded-md p-3 text-sm ${
             state.status === "success"
               ? "bg-brand-blue-50 text-brand-blue-700"
-              : "bg-brand-red-50 text-brand-red-700"
+              : "bg-brand-gold-50 text-brand-gold-700"
           }`}
           role="status"
         >
@@ -52,7 +52,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={pending}
-          className="rounded-full bg-brand-red-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-red-600 disabled:opacity-60"
+          className="rounded-full bg-brand-gold-500 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-gold-600 disabled:opacity-60"
         >
           {pending ? "Envoi en cours..." : "Envoyer le message"}
         </button>

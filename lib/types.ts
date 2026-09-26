@@ -38,6 +38,11 @@ export type HistoriqueEntry = {
   nb_participants: number;
 };
 
+export type GalerieItem = {
+  image: string;
+  legende: string;
+};
+
 export type Stat = {
   label: string;
   value: string;

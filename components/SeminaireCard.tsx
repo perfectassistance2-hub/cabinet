@@ -16,7 +16,7 @@ export default function SeminaireCard({ seminaire }: { seminaire: Seminaire }) {
             className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${
               estPresentiel
                 ? "bg-brand-blue-50 text-brand-blue-700"
-                : "bg-brand-red-50 text-brand-red-600"
+                : "bg-brand-gold-50 text-brand-gold-600"
             }`}
           >
             {estPresentiel ? `Présentiel · ${seminaire.ville}` : "Distanciel"}
@@ -33,7 +33,7 @@ export default function SeminaireCard({ seminaire }: { seminaire: Seminaire }) {
 
       <Link
         href={`/inscription?seminaire=${seminaire.code}`}
-        className="inline-flex shrink-0 items-center justify-center rounded-full bg-brand-red-500 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-red-600"
+        className="inline-flex shrink-0 items-center justify-center rounded-full bg-brand-gold-500 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-gold-600"
       >
         S&apos;inscrire
       </Link>

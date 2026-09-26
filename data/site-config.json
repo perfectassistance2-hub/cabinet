@@ -18,9 +18,9 @@
   },
   "couleurs": {
     "primaire": "#1F5FA8",
-    "primaireFonce": "#123A66",
-    "accent": "#D42E3F",
-    "accentFonce": "#AE2331",
+    "primaireFonce": "#0A2554",
+    "accent": "#C08420",
+    "accentFonce": "#9C6A17",
     "neutre": "#F4F6F5"
   }
 }

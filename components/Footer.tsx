@@ -21,15 +21,14 @@ export default function Footer() {
     <footer className="mt-16 bg-brand-blue-900 text-brand-neutral-50">
       <Container className="grid gap-10 py-12 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <div className="mb-3 flex items-center gap-2">
+          <div className="mb-3 inline-flex items-center rounded-md bg-white px-2.5 py-1.5">
             <Image
-              src="/images/logo.jpg"
+              src="/images/logo.webp"
               alt={config.fr.nomCabinet}
-              width={40}
-              height={24}
-              className="h-9 w-auto rounded"
+              width={96}
+              height={64}
+              className="h-10 w-auto"
             />
-            <span className="text-sm font-semibold">{config.fr.nomCabinet}</span>
           </div>
           <p className="text-sm text-brand-blue-100">{config.fr.slogan}</p>
         </div>

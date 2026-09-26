@@ -4,22 +4,23 @@
   --background: #ffffff;
   --foreground: #14213d;
 
-  /* Palette de marque Cabinet Perfect Assistance — bleu dominant + rouge en accent.
-     Ne changer que ces valeurs pour mettre à jour la charte graphique. */
+  /* Palette de marque Cabinet Perfect Assistance — calée sur le logo officiel
+     (bleu marine dominant + or en accent). Ne changer que ces valeurs pour
+     mettre à jour la charte graphique. */
   --color-brand-blue-50: #eaf1fb;
   --color-brand-blue-100: #cfe0f5;
   --color-brand-blue-300: #7fa8de;
   --color-brand-blue-500: #1f5fa8;
   --color-brand-blue-600: #17497f;
   --color-brand-blue-700: #123a66;
-  --color-brand-blue-900: #0b2340;
+  --color-brand-blue-900: #0a2554;
 
-  --color-brand-red-50: #fdeeef;
-  --color-brand-red-100: #f9d3d6;
-  --color-brand-red-400: #e15361;
-  --color-brand-red-500: #d42e3f;
-  --color-brand-red-600: #ae2331;
-  --color-brand-red-700: #841a25;
+  --color-brand-gold-50: #fbf3e2;
+  --color-brand-gold-100: #f5e2bc;
+  --color-brand-gold-400: #d9a13f;
+  --color-brand-gold-500: #c08420;
+  --color-brand-gold-600: #9c6a17;
+  --color-brand-gold-700: #7a5312;
 
   --color-brand-neutral-50: #f7f8f7;
   --color-brand-neutral-100: #eef1f0;
@@ -42,12 +43,12 @@
   --color-brand-blue-700: var(--color-brand-blue-700);
   --color-brand-blue-900: var(--color-brand-blue-900);
 
-  --color-brand-red-50: var(--color-brand-red-50);
-  --color-brand-red-100: var(--color-brand-red-100);
-  --color-brand-red-400: var(--color-brand-red-400);
-  --color-brand-red-500: var(--color-brand-red-500);
-  --color-brand-red-600: var(--color-brand-red-600);
-  --color-brand-red-700: var(--color-brand-red-700);
+  --color-brand-gold-50: var(--color-brand-gold-50);
+  --color-brand-gold-100: var(--color-brand-gold-100);
+  --color-brand-gold-400: var(--color-brand-gold-400);
+  --color-brand-gold-500: var(--color-brand-gold-500);
+  --color-brand-gold-600: var(--color-brand-gold-600);
+  --color-brand-gold-700: var(--color-brand-gold-700);
 
   --color-brand-neutral-50: var(--color-brand-neutral-50);
   --color-brand-neutral-100: var(--color-brand-neutral-100);

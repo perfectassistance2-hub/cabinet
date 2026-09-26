@@ -32,7 +32,7 @@ export default async function InscriptionPage({
             <ul className="mt-4 space-y-3 text-sm text-brand-neutral-600">
               {conditions.map((condition) => (
                 <li key={condition} className="flex gap-2">
-                  <span className="mt-0.5 text-brand-red-500">•</span>
+                  <span className="mt-0.5 text-brand-gold-500">•</span>
                   <span>{condition}</span>
                 </li>
               ))}
