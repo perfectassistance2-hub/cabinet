@@ -15,7 +15,9 @@ import type { Stat, Theme, Seminaire, Temoignage } from "@/lib/types";
 
 const statsData = stats as Stat[];
 const themesData = themes as Theme[];
-const seminairesData = seminaires as Seminaire[];
+const seminairesData = (seminaires as Seminaire[]).sort(
+  (a, b) => new Date(a.dateDebut).getTime() - new Date(b.dateDebut).getTime()
+);
 const temoignagesData = temoignages as Temoignage[];
 const c = content.fr.accueil;
 

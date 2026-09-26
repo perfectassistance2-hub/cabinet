@@ -17,11 +17,12 @@
     "aPropos": {
       "titre": "Le Cabinet",
       "intro": "Cabinet Perfect Assistance est un cabinet de formation basé au Maroc, spécialisé dans le renforcement des capacités des élus, dirigeants, cadres et collaborateurs du secteur public et parapublic. Nous accompagnons des administrations et organismes publics au Maroc, en Afrique et au-delà, à travers des séminaires, des formations sur mesure et des voyages d'études.",
+      "equipeImage": "/images/evenements/equipe-seminaire-plage.webp",
       "motDirigeant": {
         "titreSection": "DE LA FORMATION À L'EXPERTISE",
         "nom": "Nom Prénom",
         "fonction": "Directeur / Fondateur, Cabinet Perfect Assistance",
-        "photo": "/images/dirigeant/placeholder.jpg",
+        "photo": "/images/dirigeant/dirigeant.webp",
         "texte": "Depuis sa création, Cabinet Perfect Assistance accompagne les administrations publiques marocaines et africaines dans le renforcement de leurs compétences. Notre conviction est simple : la performance des institutions publiques repose avant tout sur la qualité de la formation de celles et ceux qui les font vivre au quotidien. C'est cette conviction qui guide chacun de nos programmes."
       }
     },

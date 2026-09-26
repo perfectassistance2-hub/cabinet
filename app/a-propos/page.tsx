@@ -16,6 +16,19 @@ export default function AProposPage() {
     <>
       <PageHero titre={c.titre} description={c.intro} />
 
+      <section className="py-14 sm:pb-0 sm:pt-16">
+        <Container>
+          <div className="relative h-64 overflow-hidden rounded-2xl sm:h-96">
+            <Image
+              src={c.equipeImage}
+              alt="L'équipe Cabinet Perfect Assistance"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </Container>
+      </section>
+
       <section className="py-14 sm:py-16">
         <Container className="grid gap-10 lg:grid-cols-[280px_1fr] lg:items-start">
           <div className="mx-auto w-56 lg:mx-0 lg:w-full">
