@@ -71,37 +71,10 @@ export default function Footer() {
           <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-brand-blue-300">
             Réseaux sociaux
           </h3>
-          <ul className="space-y-2 text-sm">
-            <li>
-              <a
-                href={config.fr.reseauxSociaux.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-brand-neutral-50/90 hover:text-white"
-              >
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a
-                href={config.fr.reseauxSociaux.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-brand-neutral-50/90 hover:text-white"
-              >
-                Facebook
-              </a>
-            </li>
-            <li>
-              <a
-                href={config.fr.reseauxSociaux.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-brand-neutral-50/90 hover:text-white"
-              >
-                Twitter / X
-              </a>
-            </li>
+          <ul className="space-y-2 text-sm text-brand-neutral-50/60">
+            <li>LinkedIn</li>
+            <li>Facebook</li>
+            <li>Twitter / X</li>
           </ul>
         </div>
       </Container>
