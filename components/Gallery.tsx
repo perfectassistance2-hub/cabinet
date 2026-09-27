@@ -36,6 +36,7 @@ export default function Gallery({ images }: { images: string[] }) {
               src={image}
               alt=""
               fill
+              sizes="(min-width: 1024px) 16vw, (min-width: 640px) 33vw, 50vw"
               className="object-cover transition-transform duration-300 group-hover:scale-105"
             />
           </button>
