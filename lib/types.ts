@@ -46,6 +46,7 @@ export type Stat = {
 export type SiteConfig = {
   fr: {
     nomCabinet: string;
+    url: string;
     slogan: string;
     bandeauGeo: string;
     coordonnees: {
