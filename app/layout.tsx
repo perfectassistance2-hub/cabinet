@@ -44,6 +44,19 @@ export const metadata: Metadata = {
   },
   description: config.fr.slogan,
   keywords: MOTS_CLES,
+  openGraph: {
+    title: config.fr.nomCabinet,
+    description: config.fr.slogan,
+    url: config.fr.url,
+    siteName: config.fr.nomCabinet,
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: config.fr.nomCabinet,
+    description: config.fr.slogan,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
